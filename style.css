@@ -1,0 +1,86 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family:'PressStart' ;
+    src: url(assets/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family:'BrunoAceSC' ;
+    src: url(assets/BrunoAceSC-Regular.ttf);
+}
+
+body {
+    background: url(img/colagem-gradiente-do-conceito-de-metaverso.jpg);
+    background-size: cover;
+}
+
+/* COMEÇO */
+h2 {
+    font: 900 80px 'BrunoAceSC', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 220px;
+}
+
+.entradas {
+    display: flex;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+label {
+    font: 900 40px 'BrunoAceSC', sans-serif;
+}
+
+input {
+    width: 100px;
+    height: 100px;
+    font: 900 20px 'BrunoAceSC', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#sortear {
+    background: rgba(0, 3, 13, 0.60);
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    font: 900 20px 'PressStart', sans-serif;
+    color: #EBE4F2;
+}
+
+#resultado {
+    margin-top: 10px;
+    font: 900 20px 'BrunoAceSC', sans-serif;
+    color: #4AF229;
+}
+

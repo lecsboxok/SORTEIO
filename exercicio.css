@@ -1,0 +1,17 @@
+:root{
+    --cor: #000;
+}
+
+
+#area {
+    height: 200px;
+    width: 200px;
+    background-color: var(--cor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto {
+    color: white;
+}
