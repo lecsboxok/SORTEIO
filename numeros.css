@@ -16,34 +16,78 @@ img {
 
 @font-face {
     font-family:'PressStart' ;
-    src: url(assets/PressStart2P-Regular.ttf);
+    src: url(fonts/PressStart2P-Regular.ttf);
 }
 
 @font-face {
     font-family:'BrunoAceSC' ;
-    src: url(assets/BrunoAceSC-Regular.ttf);
+    src: url(fonts/BrunoAceSC-Regular.ttf);
 }
 
 body {
-    background: url(img/colagem-gradiente-do-conceito-de-metaverso.jpg);
+    background: url(img/wepik-export-20230908004032WX6z.jpeg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /* COMEÇO */
-h2 {
-    font: 900 80px 'BrunoAceSC', sans-serif;
+
+#header {
+    margin: 20px 0;
+}
+
+.linha {
+    background-color: white;
+    height: 1px;
+    margin: 0 30px;
+}
+
+.outro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container {
+    margin: 10px 150px;
+}
+
+.logo {
+    display: flex;
+}
+
+.tituloLogo {
+    font: 600 20px 'BrunoAceSC', sans-serif;
+    color: white;
+}
+
+.item {
+    font: 600 20px 'BrunoAceSC', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.margem {
+    margin: 0 15px;
+}
+
+h2 {
+    font: 900 50px 'BrunoAceSC', sans-serif;
+    color: white;
+}
+
+.caixa {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 220px;
+    margin-top: 120px;
 }
 
 .entradas {
     display: flex;
+    margin-top: 40px;
 }
 
 .entrada {
@@ -54,35 +98,38 @@ h2 {
 }
 
 label {
-    font: 900 40px 'BrunoAceSC', sans-serif;
+    font: 900 30px 'BrunoAceSC', sans-serif;
+    color: white;
+    margin-right: 55px;
 }
 
 input {
-    width: 100px;
-    height: 100px;
-    font: 900 20px 'BrunoAceSC', sans-serif;
-    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    font: 900 23px 'BrunoAceSC', sans-serif;
     text-align: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 #sortear {
-    background: #6524BF;
-    border: 5px solid #032059;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #F2B749;
     width: 250px;
     height: 50px;
-    border-radius: 10px;
     cursor: pointer;
 }
 
 button {
-    font: 900 20px 'PressStart', sans-serif;
+    font: 900 20px 'BrunoAceSC', sans-serif;
     color: #EBE4F2;
 }
 
 #resultado {
-    margin-top: 10px;
+    margin-top: 20px;
     font: 900 25px 'BrunoAceSC', sans-serif;
-    background-color: #EBE4F2;
+    color: #EBE4F2;
     border-radius: 10px;
     padding: 8px;
 }
@@ -90,6 +137,17 @@ button {
 .e {
     font: 900 23px 'BrunoAceSC', sans-serif;
     color: #EBE4F2;
-    margin-top: 110px;
+    margin-top: 85px;
 }
 
+#footer {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+span {
+    color: white;
+    font: 600 13px 'BrunoAceSC', sans-serif;
+}

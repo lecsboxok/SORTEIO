@@ -8,3 +8,92 @@
 a {
     text-decoration: none;
 }
+
+@font-face {
+    font-family:'BrunoAceSC';
+    src: url(fonts/BrunoAceSC-Regular.ttf);
+}
+
+body {
+    /* background-color: black; */
+    background: url(img/wepik-export-20230907160144zTcA.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    margin: 20px 0;
+}
+
+.linha {
+    background-color: white;
+    height: 1px;
+    margin: 0 30px;
+}
+
+.outro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: 10px 150px;
+}
+
+.logo {
+    display: flex;
+}
+
+.tituloLogo {
+    font: 600 20px 'BrunoAceSC', sans-serif;
+    color: white;
+}
+
+.item {
+    font: 600 20px 'BrunoAceSC', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.margem {
+    margin: 0 15px;
+}
+
+.sorteio {
+    font: 600 90px 'BrunoAceSC', sans-serif;
+    color: white;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0.2px solid #F2B749;
+    padding: 13px 30px;
+}
+
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+span {
+    color: white;
+    font: 600 13px 'BrunoAceSC', sans-serif;
+}
