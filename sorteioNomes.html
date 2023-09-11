@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sorteio de Nomes</title>
     <link rel="stylesheet" href="nomes.css">
 </head>
 <body>
+    <header id="header">
+        <div class="container outro">
+            <div class="logo">
+                <img src="" alt="">
+                <a href="index.html">
+                    <h1 class="tituloLogo">Sorspace</h1>
+                </a>
+            </div>
+            <nav class="menu">
+                <a href="sorteioNumeros.html" class="item margem">Números</a>
+                <a href="sorteioNomes.html" class="item margem">Nomes</a>
+                <a href="#" class="item margem">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <div class="linha"></div>
     <main class="app">
         <section class="sorteio">
-            <div class="container">
+            <div class="container caixa">
                 <h2>SORTEIO DE NOMES</h2>
-                <div class="linha"></div>
-                <div class="formulario container">
+                <div class="linha2"></div>
+                <div class="formulario">
                     <label for="entradaNomes">Adicione os nomes para o sorteio</label>
                     <textarea id="entradaNomes" placeholder="Adicione os nomes separados po vírgulas. ex(Juliana, Rebeca)"></textarea>
                     <button class="sortear">Sortear</button>
@@ -23,6 +39,9 @@
             </div>
         </section>
     </main>
+    <footer id="footer">
+        <span>Copyright &copy; 2023</span>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

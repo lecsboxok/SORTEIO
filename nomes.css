@@ -8,3 +8,172 @@
 a {
     text-decoration: none;
 }
+
+
+@font-face {
+    font-family:'BrunoAceSC';
+    src: url(fonts/BrunoAceSC-Regular.ttf);
+}
+
+body {
+    /* background-color: black; */
+    background: url(img/wepik-export-20230910204102fh6h.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    margin: 20px 0;
+}
+
+.linha {
+    background-color: white;
+    height: 1px;
+    margin: 0 30px;
+}
+
+.outro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: 10px 150px;
+}
+
+.logo {
+    display: flex;
+}
+
+.tituloLogo {
+    font: 600 20px 'BrunoAceSC', sans-serif;
+    color: white;
+}
+
+.item {
+    font: 600 20px 'BrunoAceSC', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.margem {
+    margin: 0 15px;
+}
+
+.app {
+    text-align: center;
+}
+
+h2 {
+    font: 900 50px 'BrunoAceSC', sans-serif;
+    color: white;
+}
+
+label {
+    font: 600 30px 'BrunoAceSC', sans-serif;
+    color: white;
+    margin: 20px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa {
+    margin-top: 120px;
+}
+
+.resultado {
+    font: 600 30px 'BrunoAceSC', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sortear {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #F2B749;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+button {
+    font: 900 20px 'BrunoAceSC', sans-serif;
+    color: #EBE4F2;
+}
+
+textarea {
+    font: 600 17px 'BrunoAceSC', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    padding: 15px;
+    width: 587px;
+    height: 159px;
+    resize: none;
+}
+
+#footer {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+span {
+    color: white;
+    font: 600 13px 'BrunoAceSC', sans-serif;
+}
+
+
+
+
+
+/* Sweep To Right */
+.sortear {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .sortear:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F2B749;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .sortear:hover, .sortear:focus, .sortear:active {
+    color: black;
+  }
+  .sortear:hover:before, .sortear:focus:before, .sortear:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
